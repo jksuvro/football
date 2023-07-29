@@ -1,7 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
 /* ====================
     Global Css
 ======================= */
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* =======================
+    Bannner Style
+========================== */
+.full-banner{
+    background-color: #2D25A0;
+    display: flex;
+    justify-content: center;
+}
+.banner-container{
+    width: 1160px;
+    margin-top: 154px;
+    margin-bottom: 86px;
+}
+.banner-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.banner-left h1{
+    width: 485px;
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; /* 125% */
+}
+.banner-right img{
+    height: 428px;
+}
+.banner-left a, .news-left-content a{
+    text-decoration: none;
+    color: #FFF;
+    background: #E02C6D;
+    display: inline-flex;
+    padding: 10px 24px;
+    align-items: flex-start;
+    gap: 8px;
+}
+/* ====================
+    Player gallery
+======================= */
+.player-gallery{
+    display: flex;
+    justify-content: center;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin: 70px 0 70px 0;
+}
+.player{
+    display: inline-flex;
+    height: 474px;
+    padding: 15px;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.player-content{
+    width: 300px;
+    height: 256px;
+}
+.player-content img{
+    width: 300px;
+    height: 256px;
+}
+/*=====================
+    Newslatter Style
+======================= */
+.newslatter{
+    display: flex;
+    justify-content: center;
+}
+.newslattter-container{
+    width: 1160px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 70px;
+}
+.news-left-content h1{
+    color: #0A0826;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+}
+.news-left-content p{
+    color: #6C6C6C;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+.news-right-content img{
+    width: 567px;
+    height: 427px;
+}
+/* ======================
+    Footer Style
+========================= */
+.football{
+    text-align: center;
+}
+.football img{
+    width: 270px;
+    justify-content: space-around;
+}
+.socials{
+    display: flex;  
+    
+}
+.social-gorup{
+    width: 300px;
+    text-align: center;
+    
+}
+.social-icon{
+    background-color: #6C6C6C;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-align: center;
+}
+.social-icon a{
+    line-height: 2;
+    color: #fff;
 }
